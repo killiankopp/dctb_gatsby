@@ -42,6 +42,7 @@ const Equipe = () => (
         <h1>Equipe</h1>
         {dechaineurs.map((dechaineur) => (
             <Dechaineur
+                key={dechaineur.name}
                 name={dechaineur.name}
                 title={dechaineur.title}
                 description={dechaineur.description}
