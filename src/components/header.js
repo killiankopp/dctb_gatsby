@@ -30,6 +30,7 @@ const Header = ({siteTitle}) => (
                 style={{marginBottom: `var(--space-3)`}}
             />
         </Link>
+        {siteTitle}
         <Nav/>
     </header>
 )
