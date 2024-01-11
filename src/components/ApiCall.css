@@ -1,0 +1,115 @@
+/* :root {
+    --textColor: black;
+    --cardBackgroundColor: #c1e9c2;
+    --shadowColor: rgba(28, 90, 46, 0.704);
+}
+  
+  h2 {
+    font-size: 1.5rem;
+    color: var(--textColor);
+  }
+  
+  p {
+    font-size: 1rem;
+    color: var(--textColor);
+  }
+  
+  #ApiTargetContainer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .activity-card {
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    width: calc(32% - 20px);
+    box-sizing: border-box;
+    background-color: var(--cardBackgroundColor); 
+    box-shadow: 0 2px 4px var(--shadowColor);
+  } */
+
+  /* src/components/ApiCall.css */
+/* :root {
+  --textColor: black;
+  --cardBackgroundColor: #c1e9c2;
+  --shadowColor: rgba(28, 90, 46, 0.704);
+  --logo: url('../images/logo.webp');
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: var(--textColor);
+}
+
+p {
+  font-size: 1rem;
+  color: var(--textColor);
+}
+
+#ApiTargetContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.activity-card {
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px;
+  width: calc(32% - 20px);
+  box-sizing: border-box;
+  background-color: var(--cardBackgroundColor);
+  box-shadow: 0 2px 4px var(--shadowColor);
+  background-image: var(--logo);
+  background-size: cover; /* Ajustez ceci selon vos besoins */
+  /* background-position: center; Ajustez ceci selon vos besoins */
+
+
+  /* src/components/ApiCall.css */
+:root {
+  --textColor: black;
+  --shadowColor: rgba(28, 90, 46, 0.704);
+  --logo: url('../images/logo.webp');
+  --logoOpacity: 0.1; /* Ajustez l'opacité du logo selon vos besoins */
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--textColor);
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--textColor);
+}
+
+#ApiTargetContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.activity-card {
+  position: relative;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px;
+  width: calc(32% - 20px);
+  box-sizing: border-box;
+  box-shadow: 0 6px 8px var(--shadowColor);
+  overflow: hidden;
+}
+
+.activity-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--logo) center center / cover no-repeat;
+  opacity: var(--logoOpacity);
+  z-index: -1;
+}
+

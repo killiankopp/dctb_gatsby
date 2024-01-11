@@ -2,6 +2,7 @@ import * as React from "react"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import ApiCall from "../components/ApiCall.js"
 
 const Ateliers = () => (
     <Layout>
@@ -14,6 +15,8 @@ const Ateliers = () => (
             Des ateliers d'auto-réparation de vélos sont organisés par Des Chaînes Ton Biclou régulièrement.
         </p>
         <h4>Nos prochains ateliers</h4>
+        <ApiCall/>
+        
     </Layout>
 )
 
